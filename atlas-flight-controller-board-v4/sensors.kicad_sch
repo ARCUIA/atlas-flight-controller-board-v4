@@ -3425,7 +3425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cdf9cd5-e95c-43fb-8963-0bf06440d265")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0106"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -3474,6 +3474,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR010")
 					(unit 1)
@@ -3491,7 +3497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff3bd7b-5dd2-4056-83ab-c745bea2b5a1")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0105"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -3539,6 +3545,12 @@
 			(uuid "76fc7fc7-2177-4016-8d0c-8d9750fd9a2b")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR0112")
@@ -3557,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b12599e-31d8-4be3-82ba-776ebb0edcdb")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0102"
 			(at 95.25 129.54 0)
 			(effects
 				(font
@@ -3605,6 +3617,12 @@
 			(uuid "cd980cd5-6b03-4eef-bd3d-eb1354d40ba0")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR06")
@@ -3690,7 +3708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf7f5a9-0f00-4280-9d09-a0ab677b3b27")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0110"
 			(at 234.95 85.09 0)
 			(effects
 				(font
@@ -3738,6 +3756,12 @@
 			(uuid "8ba2b663-44fc-447a-84ae-d96d0ffbd262")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/b614d0fa-38cc-4f5c-8335-684f0616169f"
 					(reference "#PWR017")
@@ -3906,7 +3930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56bf7632-a887-4a19-add7-4c693b7a8b68")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0111"
 			(at 238.76 60.96 0)
 			(effects
 				(font
@@ -3954,6 +3978,12 @@
 			(uuid "597063c3-4041-46d1-a301-e0719090ee28")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/b614d0fa-38cc-4f5c-8335-684f0616169f"
 					(reference "#PWR022")
@@ -4199,7 +4229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792c5b90-0503-463c-a791-87576fa87969")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0103"
 			(at 39.37 68.58 0)
 			(effects
 				(font
@@ -4248,6 +4278,12 @@
 		)
 		(instances
 			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR016")
 					(unit 1)
@@ -4265,7 +4301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89089d0b-5afa-4e2c-9e80-a091e8cd9812")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0112"
 			(at 250.19 60.96 0)
 			(effects
 				(font
@@ -4313,6 +4349,12 @@
 			(uuid "8c5a103c-4f39-471f-847e-166868b0aa53")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/b614d0fa-38cc-4f5c-8335-684f0616169f"
 					(reference "#PWR023")
@@ -4405,7 +4447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927fdbf8-3c3e-4d01-9dec-d4773c8cd34e")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0101"
 			(at 104.14 176.53 0)
 			(effects
 				(font
@@ -4453,6 +4495,12 @@
 			(uuid "a52437f4-b192-465d-9d73-e9cf216cd051")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR0101")
@@ -5108,7 +5156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a996bc80-e662-4277-ac7a-2beacecaa273")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0109"
 			(at 184.15 55.88 0)
 			(effects
 				(font
@@ -5156,6 +5204,12 @@
 			(uuid "7ffb721c-14c5-4c39-891e-969d85f6bbcd")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/b614d0fa-38cc-4f5c-8335-684f0616169f"
 					(reference "#PWR024")
@@ -5248,7 +5302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb491db3-af30-4951-9304-93cb7fc161b0")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0104"
 			(at 64.77 87.63 0)
 			(effects
 				(font
@@ -5296,6 +5350,12 @@
 			(uuid "f37fb110-8fbd-40bc-a956-6525d2c25c89")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR013")
@@ -5704,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee3ff6e5-a87a-434b-a244-914a9990ed11")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0108"
 			(at 105.41 76.2 0)
 			(effects
 				(font
@@ -5752,6 +5812,12 @@
 			(uuid "84a06bde-e1ba-4dca-96eb-6d4fc1e9d02d")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR0115")
@@ -5770,7 +5836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19f2e25-c0ec-4021-bde0-17987d9bc2a2")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0113"
 			(at 238.76 46.99 0)
 			(effects
 				(font
@@ -5818,6 +5884,12 @@
 			(uuid "62283af9-3327-471a-83a3-0163004822aa")
 		)
 		(instances
+			(project ""
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/b614d0fa-38cc-4f5c-8335-684f0616169f"
 					(reference "#PWR018")
