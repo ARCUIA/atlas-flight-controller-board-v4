@@ -5,156 +5,6 @@
 	(uuid "3e0a7050-e033-448e-ba3d-e4054a72f870")
 	(paper "A4")
 	(lib_symbols
-		(symbol "APA0606100M050R:_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "_1_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -3.81) (xy -1.524 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.556) (xy -1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -4.064) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.762 -4.064)
-					(mid 0.3734 -2.54)
-					(end 0.762 -1.016)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "_1_1_1"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2901,16 +2751,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Alum Poly\n"
-		(exclude_from_sim no)
-		(at 99.568 127.762 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "cdaf303a-ee5c-4170-9204-18f21d1b23f4")
-	)
 	(junction
 		(at 76.2 81.28)
 		(diameter 0)
@@ -3341,16 +3181,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 160.02) (xy 50.8 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53476db2-730f-4764-8fb6-4a4675a3ada5")
-	)
-	(wire
-		(pts
 			(xy 39.37 62.23) (xy 39.37 60.96)
 		)
 		(stroke
@@ -3421,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 157.48) (xy 50.8 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ef8345-7460-4b4c-93bc-48ce8e7dc885")
-	)
-	(wire
-		(pts
 			(xy 246.38 130.81) (xy 250.19 130.81)
 		)
 		(stroke
@@ -3448,16 +3268,6 @@
 			(type default)
 		)
 		(uuid "77e454d6-5dd0-458b-b24e-46387be21409")
-	)
-	(wire
-		(pts
-			(xy 49.53 152.4) (xy 50.8 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de3e6b7-964c-42aa-9ee5-8f784627541a")
 	)
 	(wire
 		(pts
@@ -3845,7 +3655,7 @@
 	)
 	(global_label "SCK_MEMS"
 		(shape input)
-		(at 49.53 152.4 180)
+		(at 50.8 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3855,7 +3665,7 @@
 		)
 		(uuid "23818bd5-0043-4d40-8233-e253ec623bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.5664 152.4 0)
+			(at 37.8364 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4039,7 @@
 	)
 	(global_label "MISO_MEMS"
 		(shape input)
-		(at 49.53 160.02 180)
+		(at 50.8 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4239,7 +4049,7 @@
 		)
 		(uuid "dc9c2fec-777b-449b-a278-69c0931d7768")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.7197 160.02 0)
+			(at 36.9897 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +4087,7 @@
 	)
 	(global_label "MOSI_MEMS"
 		(shape input)
-		(at 49.53 157.48 180)
+		(at 50.8 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4287,7 +4097,7 @@
 		)
 		(uuid "e2e8ed59-7e93-4b7b-9bf1-fa7561fee952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.7197 157.48 0)
+			(at 36.9897 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +4209,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100nF"
 			(at 99.06 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,7 +4219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 99.06 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4824,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5068,7 +4878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.76 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5144,7 +4954,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100nF"
 			(at 99.314 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 99.06 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5672,92 +5482,6 @@
 		)
 	)
 	(symbol
-		(lib_id "APA0606100M050R:_1")
-		(at 99.06 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "710eec56-7939-4015-b1d4-af4feb1ebdb1")
-		(property "Reference" "C1"
-			(at 102.87 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 99.06 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "CAP_APA_0606_AVX"
-			(at 99.06 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "APA0606100M050R"
-			(at 99.06 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef61976e-a6e5-49d3-b16a-c04fba6da83a")
-		)
-		(pin "2"
-			(uuid "959fed79-1a0b-4d17-a1f3-3f602bcc4da7")
-		)
-		(instances
-			(project "atlas-flight-controller-board-v4"
-				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "atlas-flight-controller-board"
-				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 62.23 0)
 		(unit 1)
@@ -5957,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6127,7 +5851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIS2MDL:PQFN50P200X200X70-12N"
+		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
 			(at 71.12 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6387,7 +6111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 243.84 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6469,7 +6193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 250.19 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6948,7 +6672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.41 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7108,7 +6832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220 nF"
+		(property "Value" "220nF"
 			(at 96.774 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,7 +6843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7245,6 +6969,86 @@
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 99.06 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf30be68-2d0a-45cd-99a1-bbfbfe76de56")
+		(property "Reference" "C43"
+			(at 99.0536 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 99.06 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 99.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c96dc24b-e438-42f2-a22b-960177e5575d")
+		)
+		(pin "1"
+			(uuid "1085b300-363e-48f8-80d6-0c30b40c97ec")
+		)
+		(instances
+			(project "atlas-flight-controller-board-v4"
+				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -7438,7 +7242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7862,6 +7666,32 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "LIS2MDL_SPI"
+		(uuid "aa78246c-8a8b-43d8-be6f-0af2576885f9")
+		(lib_id "sensors:LIS2MDL_SPI")
+		(members "0ab791aa-7cbb-4318-bc85-4e8e8c9142c7" "0cae57a6-3bdc-49c7-b001-25d194668baa"
+			"0da27fe1-ef6c-4f5f-8832-551961ca739f" "1085d7a7-3055-4f5f-9ba4-95fcd3dd7744"
+			"117e3f07-91ac-4877-9d0d-a8e8ae910851" "1345939e-8d55-4c78-9438-36bc38fe63d8"
+			"20e6a362-2413-45e7-8593-fe80701a17db" "23818bd5-0043-4d40-8233-e253ec623bdb"
+			"397bee4b-c0a1-46e5-a201-1a473b300a2c" "3b12599e-31d8-4be3-82ba-776ebb0edcdb"
+			"3c1f30ef-fab7-4d20-85c3-e40c0ceea278" "487c97c7-788f-4e6c-a4bf-7b4fc57dd327"
+			"48feaa2d-7542-4848-b2f6-2a4188d77647" "4ccd61d2-3aae-4863-af96-72e30f40c39d"
+			"50e5cc8d-390a-4e7b-bf1d-298a2fee927b" "5d645774-8ede-4a1f-ac11-8c02df5791f6"
+			"5eca3add-a6a8-46dd-9c30-d522ade3a89b" "7edb4f66-e049-4758-9f3e-1b64f01c0ab9"
+			"8051ba19-5127-478b-bcd1-e87c78e954af" "927fdbf8-3c3e-4d01-9dec-d4773c8cd34e"
+			"96ca15d9-9f17-4c57-9eaf-5d222d5ebc0b" "98d0a383-107f-48bc-bfaa-667d4aa1a20b"
+			"9c4634bb-ea80-4714-a8c2-e105f84e44be" "9cf5a10a-49fa-4109-b221-99e2d35aa729"
+			"a36e8ce5-9247-4f58-ab08-8e2bafe2dd36" "aa6397bc-1037-4031-81ff-7dfde0e412eb"
+			"ac8b1d57-ce24-49c4-bca9-bfca44e9c67f" "ba29355b-5ef9-4ffb-b129-3825cd0082a9"
+			"bbc780eb-e731-451e-84b1-d9695948ab0d" "bc82a8d2-0c1f-4e70-ae0a-219a7db42c13"
+			"bca47364-4c82-456c-8a0f-f63c8a29ea21" "bf30be68-2d0a-45cd-99a1-bbfbfe76de56"
+			"c028be64-9e7a-4d01-a29b-66698c2836a4" "c0d602bb-fbb3-4c74-bbbd-22a55f8ccb4d"
+			"c141713b-3189-4866-b5eb-c6fa5cbbb8b2" "c5a55356-2dbf-4121-92d1-e403ace39fac"
+			"d531354f-63c9-44b6-9698-2df9d2b522bf" "dc9c2fec-777b-449b-a278-69c0931d7768"
+			"e2e8ed59-7e93-4b7b-9bf1-fa7561fee952" "f40ad0f8-f820-4b89-8a1c-e228ed56d6cf"
+			"faa480ac-9035-4bc3-b485-3816ef265dc4" "fbeca2d6-bb8c-405e-a48d-a725f675466f"
 		)
 	)
 )
