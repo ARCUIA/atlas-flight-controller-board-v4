@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "3e0a7050-e033-448e-ba3d-e4054a72f870")
 	(paper "A4")
+	(title_block
+		(title "Atlas v4 Flight Controller")
+		(company "Sam Manley, ARCUIA")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -4120,7 +4124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c278937-f1af-473b-bb7a-204b2df7c92e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR012"
 			(at 148.59 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4181,7 +4185,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR028")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cae57a6-3bdc-49c7-b001-25d194668baa")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 99.0536 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -4219,7 +4223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4261,7 +4265,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4285,7 +4289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cdf9cd5-e95c-43fb-8963-0bf06440d265")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR05"
 			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4345,7 +4349,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0106")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4369,7 +4373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff3bd7b-5dd2-4056-83ab-c745bea2b5a1")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR011"
 			(at 76.2 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4429,7 +4433,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0105")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4453,7 +4457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b12599e-31d8-4be3-82ba-776ebb0edcdb")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR017"
 			(at 95.25 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4513,7 +4517,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0102")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e975c62-c584-4fba-8063-739635243ad2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR010"
 			(at 144.78 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4597,7 +4601,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR026")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4614,7 +4618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "418d112e-7e56-4194-a0e9-5a83fa8fc453")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 246.38 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4676,7 +4680,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4694,7 +4698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a1cf70-6e33-4bc0-886b-b2ffe51e8643")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR013"
 			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4754,7 +4758,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR027")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4772,7 +4776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf7f5a9-0f00-4280-9d09-a0ab677b3b27")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR08"
 			(at 234.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4832,7 +4836,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0110")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4856,7 +4860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c266b10-4a98-456e-bc42-66d2562e1382")
-		(property "Reference" "C9"
+		(property "Reference" "C1"
 			(at 241.3 50.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4878,7 +4882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.76 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4920,7 +4924,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C9")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4943,7 +4947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ccd61d2-3aae-4863-af96-72e30f40c39d")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 98.806 143.002 90)
 			(hide yes)
 			(show_name no)
@@ -4964,7 +4968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5006,7 +5010,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5030,7 +5034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53091b2e-1f1f-489f-ac7e-b066dcd15233")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 157.48 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5090,7 +5094,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5107,7 +5111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56224f53-2b90-4a1e-838d-f0411c21e269")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 146.9233 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5218,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56bf7632-a887-4a19-add7-4c693b7a8b68")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR03"
 			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5292,7 +5296,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0111")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5493,7 +5497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792c5b90-0503-463c-a791-87576fa87969")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR06"
 			(at 39.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5553,7 +5557,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0103")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5577,7 +5581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89089d0b-5afa-4e2c-9e80-a091e8cd9812")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR04"
 			(at 250.19 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5637,7 +5641,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0112")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5660,7 +5664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90a4a39f-a7bc-49ff-a76f-96cde9aba7ad")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 73.66 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5681,7 +5685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5723,7 +5727,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927fdbf8-3c3e-4d01-9dec-d4773c8cd34e")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR019"
 			(at 104.14 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5807,7 +5811,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0101")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5831,7 +5835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ca15d9-9f17-4c57-9eaf-5d222d5ebc0b")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 71.12 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6068,7 +6072,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6091,7 +6095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c79614f-b8fe-4fdb-952d-5e264b105b39")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 246.126 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 243.84 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6153,7 +6157,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6171,7 +6175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a54e205c-797f-4628-b8e7-2bbb9640df7a")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 252.73 50.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 250.19 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6235,7 +6239,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6259,7 +6263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a857eb14-3088-4661-8a15-54c200d7dfca")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 210.82 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,7 +6548,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6568,7 +6572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a996bc80-e662-4277-ac7a-2beacecaa273")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR02"
 			(at 184.15 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6628,7 +6632,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0109")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6651,7 +6655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba836988-ae16-4f1e-9c03-6ded7efaeec4")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 108.712 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +6676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.41 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6714,7 +6718,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C6")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6738,7 +6742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb491db3-af30-4951-9304-93cb7fc161b0")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR09"
 			(at 64.77 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6798,7 +6802,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0104")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6821,7 +6825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc82a8d2-0c1f-4e70-ae0a-219a7db42c13")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 98.044 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +6847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6884,7 +6888,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C4")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6908,7 +6912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bead81f1-4558-43b9-9b24-7d17e9d79dff")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR015"
 			(at 144.78 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6968,7 +6972,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR025")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6985,7 +6989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf30be68-2d0a-45cd-99a1-bbfbfe76de56")
-		(property "Reference" "C43"
+		(property "Reference" "C8"
 			(at 99.0536 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -7048,7 +7052,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C43")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7066,7 +7070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce20982d-f2e2-4cb6-b703-5a5063262a98")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 238.76 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7126,7 +7130,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddad723a-bd5d-43b9-bc7a-f79c91bc85ac")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR018"
 			(at 250.19 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7204,7 +7208,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0107")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7221,7 +7225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e58112dc-da58-473d-a755-6fc8c1072cbb")
-		(property "Reference" "C27"
+		(property "Reference" "C5"
 			(at 144.272 90.424 90)
 			(hide yes)
 			(show_name no)
@@ -7242,7 +7246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7284,7 +7288,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "C27")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7512,7 +7516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee3ff6e5-a87a-434b-a244-914a9990ed11")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR07"
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7572,7 +7576,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0108")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7596,7 +7600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19f2e25-c0ec-4021-bde0-17987d9bc2a2")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR01"
 			(at 238.76 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7656,7 +7660,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d/d2d48602-e6ee-4bc4-bdea-4cc645152de4"
-					(reference "#PWR0113")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
