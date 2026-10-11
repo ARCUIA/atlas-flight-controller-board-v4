@@ -56,52 +56,6 @@
 		)
 	)
 	(sheet
-		(at 19.05 149.86)
-		(size 41.275 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "50860215-6311-4255-b839-2ba1bcfad4c2")
-		(property "Sheetname" "sd-card"
-			(at 19.05 149.1484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sd-card.kicad_sch"
-			(at 19.05 177.1146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "atlas-flight-controller-board-v4"
-				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 19.05 20.32)
 		(size 41.275 26.67)
 		(exclude_from_sim no)
@@ -142,7 +96,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d"
-					(page "6")
+					(page "2")
 				)
 			)
 		)
@@ -188,7 +142,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -234,7 +188,7 @@
 		(instances
 			(project "atlas-flight-controller-board-v4"
 				(path "/5e529273-3bf8-4f62-b3e5-dd579b5c7f6d"
-					(page "2")
+					(page "3")
 				)
 			)
 		)

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.25,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,17 +52,17 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.25,
+          "width": 1.61
         }
       ],
       "drc_exclusions": [],
@@ -210,7 +215,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +250,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -510,9 +522,9 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.154,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -830,13 +842,17 @@
         "uuid": "5e529273-3bf8-4f62-b3e5-dd579b5c7f6d"
       }
     ],
-    "used_designators": "A1,C1-58,D1-20,U1-14,Q1,Q11-12,TP1-12,R1-44,J1-8,IC1,H1-8,SW1-6,Y1-2,#PWR1-84,FB1-6,L1-5",
+    "used_designators": "H1-8,SW1-6,Y1-2,#PWR1-84,FB1-6,L1-5,C1-58,A1,D1-20,U1-14,Q1,Q11-12,R1-44,TP1-12,IC1,J1-8",
     "variants": []
   },
   "sheets": [
     [
       "5e529273-3bf8-4f62-b3e5-dd579b5c7f6d",
       "atlas-flight-controller-board-v4"
+    ],
+    [
+      "944cefa2-a532-46e0-b3fd-dfd81a952a32",
+      "stm32"
     ],
     [
       "d2d48602-e6ee-4bc4-bdea-4cc645152de4",
@@ -847,16 +863,8 @@
       "radio"
     ],
     [
-      "50860215-6311-4255-b839-2ba1bcfad4c2",
-      "sd-card"
-    ],
-    [
       "483d03ec-008d-4727-a2fd-f320a2bd2080",
       "power"
-    ],
-    [
-      "944cefa2-a532-46e0-b3fd-dfd81a952a32",
-      "stm32"
     ]
   ],
   "text_variables": {},

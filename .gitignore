@@ -45,3 +45,4 @@ fp-info-cache
 # user gitignore
 *.DS_Store
 buzzers.txt
+_restore_backup*
